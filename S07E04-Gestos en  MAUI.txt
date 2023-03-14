@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopApp.MainPage">
+    
+    <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" Style="{StaticResource MiGridVaxi}" >
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+        </Grid.GestureRecognizers>
+        
+        
+        <Label FontSize="30" x:Name="category" />  
+        <Label FontSize="30" x:Name="client" Grid.Column="1" />
+        <Label FontSize="30" x:Name="product" Grid.Column="1" Grid.Row="1" />
+    </Grid>
+    
+    
+    
+    
+
+
+
+</ContentPage>
